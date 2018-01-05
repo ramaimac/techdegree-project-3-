@@ -167,6 +167,10 @@ select option[value=""] {
   font-size: .9em;
 }
 
+#zip {
+  width: 50%;
+}
+
 #other_topics {
   height: 100px;
   resize: none;
@@ -192,6 +196,16 @@ select option[value=""] {
 
   .one {
     align-self: center;
+  }
+
+  .onezip {
+    align-self: center;
+    flex-grow: .27;
+  }
+
+  .twozip {
+    flex-grow: .25;
+    text-align: left;
   }
 
   h2 {
