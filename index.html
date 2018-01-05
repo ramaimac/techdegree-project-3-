@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Code Review</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+      <header>
+        <h1>The Code Review</h1>
+      </header>
+
+      <form action="index.html" method="post">
+      
+        <div>
+          <h2>Sign up for our newsletter</h2>
+          <p class="info">Get the latest new on how your code is doing right in your inbox</p>
+        </div>
+      
+        <div class="border1"></div>
+        
+        <fieldset>
+          
+          <legend>Contact Information</legend>
+            
+            <div class="item">
+              <label class="part one" for="name">Full Name</label>
+              <input class="part two" type="text" id="name" name="user_name" placeholder="Required">
+            </div>
+            
+            <div class="item">
+              <label class="part one" for="mail">Email Address</label>
+              <input class="part two" type="email" id="mail" name="user_email" placeholder="Required">
+            </div>
+
+            <div class="item">
+              <label class="part one" for="phone">Phone Number</label>
+              <input class="part two" type="tel" id="phone" name="user_phone">
+            </div>
+
+            <div class="item">
+              <label class="part one" for="address">Street Address</label>
+              <input class="part two" type="text" id="address" name="user_address">
+            </div>
+
+            <div class="item">
+              <label class="part one" for="city">City</label>
+              <input class="part two" type="text" id="city" name="user_city">
+            </div>
+
+            <div class="item">
+              <label class="part one" for="state">State</label>
+              <select class="part two" required id="state" name="user_state">
+                  <option value="" selected disabled hidden>Choose State</option>
+                  <option value="nsw">NSW</option>
+                  <option value="vic">VIC</option>
+                  <option value="qld">QLD</option>
+                  <option value="sa">SA</option>
+                  <option value="wa">WA</option>
+                  <option value="tas">TAS</option>
+                  <option value="act">ACT</option>
+                  <option value="nt">NT</option>
+              </select>
+            </div>
+
+            <div class="item">
+              <label class="part one" for="zip">Zip Code</label>
+              <input class="part two" type="text" id="zip" name="user_zip">
+            </div>
+        
+        </fieldset>
+
+        <div class="border2"></div>
+        
+        <fieldset>
+          
+          <legend>Newsletter</legend>
+
+          <label>Select the newsletters you would like to receive</label>
+          <input type="checkbox" id="html_news" value="html_news" name="newsletter_type"><label for="html_news" class="light">HTML News</label><br>
+          <input type="checkbox" id="css_news" value="css_news" name="newsletter_type"><label for="css_news" class="light">CSS News</label><br>
+          <input type="checkbox" id="javascript_news" value="javascript_news" name="newsletter_type"><label for="javascript_news" class="light">Javascript News</label>
+
+          <label>Newsletter format</label>
+          <input type="radio" id="html" value="html" name="newsletter_format"><label for="html" class="light">HTML</label><br>
+          <input type="radio" id="plain_text" value="plain_text" name="newsletter_format"><label for="plain_text" class="light">Plain text</label>
+          
+          <label for="other_topics">Other topics you'd like to hear about</label>
+          <textarea id="other_topics" name="other_topics"></textarea>
+          
+          <button type="submit">Sign Up</button>
+
+      </fieldset>
+
+        <footer>
+          <p>Copyright the Code Review</p>
+        </footer>
+        
+      </form>
+      
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
